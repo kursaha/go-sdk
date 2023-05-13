@@ -1,3 +1,3 @@
-module github.com/kursaha/kursaha
+module github.com/kursaha/go-sdk
 
 go 1.20
