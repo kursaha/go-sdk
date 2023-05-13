@@ -1,4 +1,4 @@
-module kursaha.com/go-sdk
+module go-sdk
 
 go 1.20
 
