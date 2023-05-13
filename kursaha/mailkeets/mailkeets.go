@@ -12,6 +12,7 @@ type MailRequestDto struct {
 	FromAddress       string `json:"fromAddress"`
 	To                string `json:"to"`
 	Subject           string `json:"subject"`
+	ContentType       string `json:"contentType"`
 	Body              string `json:"body"`
 	RequestIdentifier string `json:"requestIdentifier"`
 	UnsubscribedList  string `json:"unsubscribedList"`
