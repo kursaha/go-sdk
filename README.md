@@ -11,11 +11,10 @@ This is a Go SDK for sending signals to the Engage Data Drive API endpoint.
 "github.com/kursaha/go-sdk/kursaha/edd"
 ```
 
-2. Create a new instance of the `SignalService`:
+2. Create a new instance of the `Kursaha`:
 
 ```go
 kursahaClient := kursaha.NewKursaha("<YOUR-API-KEY>")
-signal := kursahaClient.NewSignalService()
 ```
 
 3. Use the `SendSignal` method to send a signal:
